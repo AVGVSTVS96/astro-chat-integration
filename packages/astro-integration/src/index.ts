@@ -1,8 +1,8 @@
 import type { AstroIntegration } from "astro";
 
-export default function myAstroIntegration(): AstroIntegration {
+export default function chatGptAstroIntegration(): AstroIntegration {
 	return {
-		name: "my-astro-integration",
+		name: "astro-chatgpt-integration",
 		hooks: {
 			"astro:config:setup": ({ logger }) => {
 				logger.info("astro:config:setup");
